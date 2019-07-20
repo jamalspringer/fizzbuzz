@@ -1,12 +1,12 @@
-array = 1..20
-array.each do |i|
-  if i % 3 == 0 && i % 5 == 0
-    puts "FizzBuzz"
-    elsif i % 3 == 0
-      puts "Fizz"
-    elsif i % 5 == 0
-      puts "Buzz"
-    else
-      puts i
+def fizzbuzz(input)
+  if input % 5 == 0 and input % 3 == 0
+    return "fizzbuzz"
+  elsif input % 3 == 0
+    return "fizz"
+  elsif  input % 5 == 0
+    return "buzz"
+  else
+    return input
   end
+
 end

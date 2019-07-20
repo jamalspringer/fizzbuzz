@@ -9,3 +9,5 @@
     puts n
   end
 end
+
+def fizbuzz(fi)
